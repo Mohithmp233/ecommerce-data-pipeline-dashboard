@@ -15,7 +15,7 @@ End-to-end data analytics project that transforms raw e-commerce transactions in
 | Resource | Link |
 |---|---|
 | Tableau Dashboard | [View Tableau Public Dashboard](https://public.tableau.com/views/E-CommerceDataPipelineAnalyticsDashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) |
-| Streamlit App | Local app: `streamlit run app/app.py` |
+| Streamlit App | [Streamlit App](https://ecommerce-data-pipeline-dashboard-xxazquwm5hknr2eju86wbr.streamlit.app/) |
 
 >Start with the Tableau dashboard. It includes Executive Overview, Customer Intelligence, and Product Performance views built from the cleaned pipeline outputs.
 
@@ -238,11 +238,5 @@ reports/weekly_report_2026-06-22.xlsx
 ## Author
 
 Mohith Kumar M P  
-B.E. AI & Data Science  
-Srinivas Institute of Technology
+B.E. AI & Data Science Graduate
 
-Links to add:
-
-- LinkedIn: Add your LinkedIn URL
-- GitHub: Add your GitHub URL
-- Email: Add your email
