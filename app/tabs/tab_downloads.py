@@ -40,4 +40,3 @@ def render() -> None:
 
     st.subheader("External Links")
     st.link_button("View Tableau Dashboard", TABLEAU_URL)
-    st.write("Kaggle and GitHub links can be added after you publish/upload them.")

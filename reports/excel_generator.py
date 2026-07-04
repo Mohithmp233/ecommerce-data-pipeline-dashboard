@@ -165,7 +165,7 @@ def _add_executive_summary(wb: Workbook, conn: sqlite3.Connection) -> dict[str, 
     """Create the Executive Summary sheet with KPI cards."""
     ws = wb.active
     ws.title = "Executive Summary"
-    _style_title(ws, "Executive Summary", f"Generated: {datetime.now():%Y-%m-%d %H:%M}")
+    _style_title(ws, "Executive Summary")
     kpis = _get_kpi_rows(conn)
 
     cards = [

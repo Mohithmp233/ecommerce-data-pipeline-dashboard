@@ -18,9 +18,27 @@ def _inject_css() -> None:
     st.markdown(
         """
         <style>
-        .block-container { padding-top: 1.5rem; padding-bottom: 2rem; }
+        .block-container { padding-top: 2.25rem; padding-bottom: 2rem; }
         [data-testid="stMetricValue"] { font-size: 1.85rem; }
         [data-testid="stSidebar"] { border-right: 1px solid #e5e7eb; }
+        .stTabs [data-baseweb="tab-list"] {
+            gap: 10px;
+            padding-top: 0.45rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px solid rgba(160, 174, 192, 0.35);
+        }
+        .stTabs [data-baseweb="tab"] {
+            height: 44px;
+            padding: 10px 14px;
+            line-height: 1.2;
+            font-size: 0.98rem;
+            font-weight: 650;
+            align-items: center;
+            white-space: nowrap;
+        }
+        .stTabs [aria-selected="true"] {
+            color: #ff4b4b;
+        }
         </style>
         """,
         unsafe_allow_html=True,

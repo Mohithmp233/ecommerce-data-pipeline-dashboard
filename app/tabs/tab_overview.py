@@ -20,8 +20,7 @@ def render() -> None:
     c3.metric("Customers", f"{int(kpi.active_customers):,}")
     c4.metric("Products", f"{int(kpi.total_products):,}")
 
-    st.subheader("Recruiter Walkthrough")
-    st.write(
+    st.info(
         "Start with the Tableau dashboard, inspect the SQL explorer, then download the Excel report. "
         "The app is backed by the SQLite warehouse produced by the ETL pipeline."
     )
@@ -35,4 +34,3 @@ def render() -> None:
 
     st.subheader("Project Links")
     st.link_button("Open Tableau Public Dashboard", TABLEAU_URL)
-    st.info("Streamlit Cloud and Kaggle links can be added after deployment/upload.")
