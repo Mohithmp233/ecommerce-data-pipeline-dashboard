@@ -16,8 +16,6 @@ End-to-end data analytics project that transforms raw e-commerce transactions in
 |---|---|
 | Tableau Dashboard | [View Tableau Public Dashboard](https://public.tableau.com/views/E-CommerceDataPipelineAnalyticsDashboard/ExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) |
 | Streamlit App | Local app: `streamlit run app/app.py` |
-| Kaggle Notebook | Coming soon |
-| GitHub Repo | Add your GitHub repo URL |
 
 >Start with the Tableau dashboard. It includes Executive Overview, Customer Intelligence, and Product Performance views built from the cleaned pipeline outputs.
 
