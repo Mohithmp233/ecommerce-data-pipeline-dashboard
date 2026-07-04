@@ -1,0 +1,25 @@
+{
+  "orders": {
+    "stage": "orders",
+    "input_rows": 60000,
+    "rejections": {
+      "cancellations_or_negative_qty": 4776,
+      "null_customer_id": 1197,
+      "quantity_le_zero": 4692,
+      "unitprice_le_zero": 287,
+      "duplicate_invoice_stockcode": 11
+    },
+    "clean_rows": 53813,
+    "returns_rows": 4776,
+    "total_rejected": 6187,
+    "quality_score": 89.69,
+    "duration_seconds": 0.15
+  },
+  "products": {
+    "clean_rows": 4000
+  },
+  "customers": {
+    "clean_rows": 5928
+  },
+  "overall_quality_score": 89.69
+}
