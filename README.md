@@ -8,7 +8,7 @@ End-to-end data analytics project that transforms raw e-commerce transactions in
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Ready-336791)
 ![Tableau](https://img.shields.io/badge/Tableau-Public-E97627)
 ![Excel](https://img.shields.io/badge/Excel-Automation-217346)
-![Streamlit](https://img.shields.io/badge/Streamlit-Planned-FF4B4B)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B)
 
 ## Quick Links
 
