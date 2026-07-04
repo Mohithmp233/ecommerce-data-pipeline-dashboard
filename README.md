@@ -233,7 +233,7 @@ reports/weekly_report_2026-06-22.xlsx
 | Excel report automation | Complete |
 | Jupyter notebook | Complete |
 | Tableau Public dashboard | Complete |
-| Streamlit app | Complete locally |
+| Streamlit app | Complete |
 
 ## Author
 
